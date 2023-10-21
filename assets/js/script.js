@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const expandButtons = document.querySelectorAll('.expand-button');
-    const details = document.querySelectorAll('.details');
+    const details = document.querySelectorAll('.about-more');
 
     expandButtons.forEach((button, index) => {
         button.addEventListener('click', () => {

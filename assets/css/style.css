@@ -17,6 +17,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #333;
     padding: 10px 0;
@@ -60,69 +61,66 @@ section a {
 }
 
 .circular-image {
-    width: 42px; /* 设置圆形容器的宽度 */
-    height: 42px; /* 设置圆形容器的高度 */
-    border-radius: 50%; /* 将容器剪切成一个圆形 */
-    overflow: hidden; /* 隐藏超出容器的部分 */
-    margin-right: 10px; /* 设置图标与名字之间的右边距 */
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
 }
 
 .circular-image img {
-    width: 100%; /* 使图像充满容器 */
-    height: 100%; /* 使图像充满容器 */
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
-    font-size: 50px; /* 修改标题的字体大小 */
+    font-size: 50px;
 }
 
 p {
-    font-size: 20px; /* 修改段落的字体大小 */
+    font-size: 20px;
 }
-
-/*#education {*/
-/*    margin-top: 20px; !* 教育部分顶部边距 *!*/
-/*}*/
-
-/*.education-entry {*/
-/*    margin-bottom: 20px; !* 每个教育条目底部边距 *!*/
-/*    border: 1px solid #ccc; !* 边框：1像素实线，颜色灰色 *!*/
-/*    padding: 10px; !* 内边距：上下左右各10像素 *!*/
-/*    border-radius: 5px; !* 圆角边框：5像素 *!*/
-/*    box-shadow: 2px 2px 5px #ccc; !* 阴影：向右下方偏移2像素，模糊度5像素，颜色灰色 *!*/
-/*}*/
-
-/*.education-entry h3 {*/
-/*    font-size: 1.2em; !* 学校名称字体大小：1.2em *!*/
-/*    font-weight: bold; !* 学校名称加粗 *!*/
-/*}*/
-
-/*.education-entry p {*/
-/*    margin: 5px 0; !* 段落的上下边距：5像素 *!*/
-/*}*/
-
-/*.education-entry p:first-child {*/
-/*    margin-top: 10px; !* 第一个段落的上边距：10像素 *!*/
-/*}*/
 
 .details {
     display: none;
-    text-align: left; /* 左对齐文本 */
-    background-color: #f0f0f0; /* 框框的背景颜色 */
-    border: 1px solid #ccc; /* 框框的边框 */
-    padding: 10px; /* 框框的内边距 */
-    border-radius: 5px; /* 框框的圆角 */
-    margin-top: 10px; /* 顶部边距 */
+    text-align: left;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 .expand-button {
-    background-color: transparent; /* 设置背景色为透明 */
-    color: #0073e6; /* 设置文字颜色为蓝色，可以根据需要更改颜色 */
+    background-color: transparent;
+    color: #0073e6;
     border: 10px;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .expand-button:hover {
-    background-color: transparent; /* 悬停时背景色保持透明 */
+    background-color: transparent;
+}
+
+.research-entry, .project-entry, .education-entry {
+    margin-bottom: 50px;
+}
+
+.about-more {
+    display: block;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.description p {
+    margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.about-more a {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
