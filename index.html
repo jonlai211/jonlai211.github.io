@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Jonathan Lai - Personal Website</title>
+    <link rel="icon" href="assets/icons/icon1.jpeg" type="image/png">
+    <title>KAIJIE LAI</title>
+
+    <script src="assets/js/script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Jonathan Lai</h1>
+        <div class="header-content">
+            <div class="circular-image">
+                <img src="assets/icons/icon1.jpeg" alt="Your Icon">
+            </div>
+            <h1>KAIJIE LAI</h1>
+        </div>
         <p>Developer</p>
     </header>
 
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#research">Research</a> </li>
+            <li><a href="#project">Project</a> </li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -22,6 +33,61 @@
     <section id="about">
         <h2>About Me</h2>
         <p>Welcome to my personal website! I'm a web developer passionate about creating amazing applications.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-entry">
+            <h3><a href="https://www.liverpool.ac.uk/" target="_blank">University of Liverpool</a></h3>
+            <p>B.S. in Computer Science</p>
+            <p>Liverpool, Merseyside, UK</p>
+            <p>Sep. 2020 – Present</p>
+        </div>
+        <div class="education-entry">
+            <h3><a href="https://www.xjtlu.edu.cn/en" target="_blank">Xi'an Jiaotong-Liverpool University (XJTLU)</a></h3>
+            <p>B.S. in Information and Computer Science</p>
+            <p>Suzhou, Jiangsu Province, China</p>
+            <p>Sep. 2020 – Present</p>
+        </div>
+    </section>
+
+    <section id="research">
+        <h2>Research Experience</h2>
+        <div class="research-entry">
+            <h3><a href="details.html">An Experimental Platform for Fish-Robot Mixed Group Interaction Simulation</a></h3>
+            <p>Student Summer Research Internship | Advisor: Dr. Yao Zhang, Zhejiang University</p>
+            <p>Jul. 2023 – Aug. 2023</p>
+        </div>
+
+        <div class="research-entry">
+            <h3><a href="details.html">Novel Applications of Triboelectric Nanogenerators (TENG) and Thin Film Transistors (TFT) Materials</a></h3>
+            <p>Advisor: Dr. Chun Zhao, Xi'an Jiaotong-Liverpool University</p>
+            <p>Aug. 2022 – Present</p>
+        </div>
+
+        <div class="research-entry">
+            <h3><a href="details.html">MOBA-style Combat Robot Design and Development for DJI RoboMaster Competition</a></h3>
+            <p>Team Lead & Mechanical Engineer | Advisor: Dr. Eng Gee Lim, Xi'an Jiaotong-Liverpool University</p>
+            <p>Sep. 2020 – Aug. 2022</p>
+        </div>
+    </section>
+
+    <section id="project">
+        <h2>Project Experience</h2>
+        <div class="project-entry">
+            <h3><a href="details.html">Real-Time Dynamic Gesture Recognition and Classification with Multimodality Techniques</a></h3>
+            <p>Fall 2023</p>
+        </div>
+
+        <div class="project-entry">
+            <h3><a href="details.html">An Computer Graphics Physics Engine</a></h3>
+            <p>Fall 2022</p>
+        </div>
+
+        <div class="project-entry">
+            <h3><a href="details.html">An AI-powered COVID-19 Epidemic Monitoring System</a></h3>
+            <p>Spring 2021</p>
+        </div>
     </section>
 
     <section id="contact">
