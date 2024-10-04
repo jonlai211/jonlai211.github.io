@@ -6,20 +6,20 @@ import Main from '../layouts/Main';
 const Index = () => (
   <Main
     description={
-      "Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
-      + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'
+      "Kaijie Lai's personal website. Penn Engineering graduate, "
+      + 'an alumnus of both Xi\'an Jiaotong-Liverpool University and the University of Liverpool.'
     }
   >
     <article className="post" id="index">
       <header>
         <div className="title">
           <h2>
-            <Link to="/">About this site</Link>
+            <Link to="/">Hi 👋</Link>
           </h2>
-          <p>
-            A beautiful, responsive, statically-generated, react application
-            written with modern Javascript.
-          </p>
+          {/* <p> */}
+          {/*   A beautiful, responsive, statically-generated, react application */}
+          {/*   written with modern Javascript. */}
+          {/* </p> */}
         </div>
       </header>
       <p>
@@ -32,8 +32,8 @@ const Index = () => (
       </p>
       <p>
         {' '}
-        Source available{' '}
-        <a href="https://github.com/mldangelo/personal-site">here</a>.
+        {/* Source available{' '} */}
+        {/* <a href="https://github.com/mldangelo/personal-site">here</a>. */}
       </p>
     </article>
   </Main>

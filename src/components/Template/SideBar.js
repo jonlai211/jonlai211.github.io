@@ -9,12 +9,12 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/me.png`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Kaijie Lai</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:jonlai11@seas.upenn.edu">jonlai11@seas.upenn.edu</a>
         </p>
       </header>
     </section>
@@ -22,13 +22,15 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        Hi, I’m Jonathan. I am currently studying at the
+        <a href="https://www.seas.upenn.edu/">University of Pennsylvania</a> and am an alumnus of
+        <a href="https://www.liverpool.ac.uk/computer-science/">University of Liverpool</a>
+        and the
+        <a href="https://www.xjtlu.edu.cn/en/study/departments/school-of-advanced-technology">Xi&#39;an Jiaotong-Liverpool University</a>.
+      </p>
+      <p>
+        I’m an engineer by training, a software developer by profession,
+        and a creative artist at heart.
       </p>
       <ul className="actions">
         <li>
